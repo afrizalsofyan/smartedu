@@ -1,0 +1,36 @@
+/*FOOTER START///////////////////*/
+.footer {
+    padding: 50px 0 20px 0;
+    background-color: #090c14;
+    color: #878c94;
+}
+.footer .title{
+    text-align: left;
+    color:#fff;
+    font-size:25px;
+}
+.footer .social-icon{
+    padding:0px;
+    margin:0px;
+}
+.footer .social-icon a{
+    color:#fff;
+    font-size:25px;
+    padding:5px;
+}
+.footer .payment{
+    margin:0px;
+    padding:0px;
+    list-style-type:none
+}
+.footer .payment li{
+    list-style-type:none
+}
+.footer .payment li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    float: left;
+    font-size: 25px;
+    padding: 10px 10px;
+}

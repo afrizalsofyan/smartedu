@@ -1,0 +1,681 @@
+p {
+    font-size: 14px;
+    line-height: 22.4px;
+    color: #6c7279;
+}
+h1 {
+    font-size: 65px;
+    color: #2d3033;
+}
+h2 {
+    font-size: 40px;
+    color: #2d3033;
+}
+h3 {
+    font-size: 28px;
+    color: #2d3033;
+    font-weight: 300;
+}
+h4 {
+    font-size: 22px;
+    color: #2d3033;
+    font-weight: 400;
+}
+h5 {
+    font-size: 14px;
+    color: #2d3033;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.btn {
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    margin-top: 20px;
+    color: #2a2a2a;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-radius: 0px;
+    padding: 1.5% 3%;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.btn:hover, .btn:focus {
+    background-color: #3281ff;
+    color: #fff;
+}
+.btn-large {
+    padding: 15px 40px;
+}
+#suggestions{
+
+                position: relative;
+                z-index: 9999;
+            }
+            #autoSuggestionsList > li {
+                background: none repeat scroll 0 0 #F3F3F3;
+                border-bottom: 1px solid #E3E3E3;
+                list-style: none outside none;
+                padding: 3px 15px 3px 15px;
+                text-align: left;
+            }
+            #autoSuggestionsList > li a {  color: #1d80c2; }
+            .auto_list {
+                border: 1px solid #E3E3E3;
+                border-radius: 5px 5px 5px 5px;
+                position: absolute;
+                width: 100%;
+            }
+/* ------------------------------------------------------------------------------
+     General Style
+-------------------------------------------------------------------------------*/
+a {
+    color: #fff;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    -moz-transition: background-color, color, 0.3s;
+    -o-transition: background-color, color, 0.3s;
+    -webkit-transition: background-color, color, 0.3s;
+    transition: background-color, color, 0.3s;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #6c7279;
+}
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+.section {
+    padding: 100px 0;
+}
+.no-padding {
+    padding: 0;
+}
+.no-gutter [class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+/* ==========================================================================
+    $Banner
+========================================================================== */
+.banner {
+    background-image: url(../img/education2.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 750px;
+}
+.banner-inner-wrapper {
+    float: right;
+}
+.banner-text {
+    padding-top: 35%;
+}
+.banner-text-2{
+    padding-top: 35%;
+}
+.banner-text-2 h1{
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.banner-text-2 p{
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 1%;
+}
+.banner-text h2 {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+.banner-text p {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 1%;
+}
+.banner-text h2{
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+.banner-text-2 .btn{
+    border-color: white;
+    color: white;
+}
+.banner-text h4{
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 1%;
+}
+/* ==========================================================================
+    our-profit
+========================================================================== */
+.our-profit{
+    background-image: url(../img/main-bg.png);
+}
+#profit-tittle h2{
+    margin-top: 60px;
+    text-align: center;
+}
+#profit-item .item-text h4{
+    font-size: 21px;
+}
+#profit-item{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    padding:30px;
+    border: solid 1px black;
+    text-align: center;
+    box-shadow:12px 12px 2px 1px rgba(151, 155, 163, .2);
+     background: linear-gradient(to right, rgba(0, 128, 0, 0.7),rgba(0, 0, 255, 0.6),rgba(75, 0, 130, 0.6),rgba(238, 130, 238, 0.6),rgba(255, 0, 0, 0.6),rgba(255, 165, 0, 0.6),rgba(255, 255, 0, 0.6));
+    background-size: 100% 5%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    transition: height 3s;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+#profit-item:hover{
+    background-size: 100% 100%;
+}
+
+#profit-item img{
+    text-align: center;
+}
+/* ==========================================================================
+    our-galery
+========================================================================== */
+.our-galery{
+   background-image: url(../img/bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 600px;
+}
+.galery-tittle{
+    margin-top: 60px;
+    text-align: center;
+}
+/* ==========================================================================
+    our-prouct
+========================================================================== */
+.our-product{
+   background-image: url(../img/main-bg.png);
+}
+.product-tittle h2{
+    margin-top: 60px;
+    text-align: center;
+}
+.carousel-inner .item img{
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+.carousel-caption {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #000;
+    text-align: center;
+    text-shadow: none;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+ }
+.controllers {
+    position: absolute;
+    top: 0px;
+}
+.carousel-control.left, 
+.carousel-control.right {
+    background-image: none;
+}
+.our-location {
+    margin-top: 
+}
+#map {
+    height: 400px;
+    width: 100%;
+}
+/* ==========================================================================
+    contact-us
+========================================================================== */
+#contact{
+    background-color:#f1f1f1;
+}
+.well h3{
+    text-align: center;
+}
+#contact .well{
+    margin-top:30px;
+    border-radius:0;
+}
+
+#contact .form-control{
+    border-radius: 0;
+    border:2px solid #1e1e1e;
+}
+
+#contact button{
+    border-radius:0;
+    border:2px solid #1e1e1e;
+}
+
+#contact .row{
+    margin-bottom:30px;
+}
+/* ==========================================================================
+    login_page
+========================================================================== */
+.login{
+    padding-top: 15%;
+    background: #9053c7;
+    background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+.form-login{
+    border-radius: 30px;
+    padding-top: 60px;
+    padding-bottom:60px;
+    padding-left: 90px;
+    padding-right: 90px;
+    width: 480px;
+    background-color: #fff;
+    margin-bottom: 120px;
+     box-shadow: 0 3px 5px 0 rgba(0,0,0,.13);
+}
+.login-tittle{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.login-text{
+    text-align: center;
+}
+.form-login .form-group .form-control{
+    border-radius: 150px;
+    background-color: #e6e6e6;
+    width: 300px;
+    height: 40px;
+}
+.form-login .form-group #btn-login{
+    border-radius: 150px;
+    background-color: #0cb528;
+    color: #fff;
+    border: #0cb528;
+    width: 300px;
+    height: 40px;
+}
+/* ==========================================================================
+    dashboard_page
+========================================================================== */
+
+/* ==========================================================================
+    dashboard-content
+========================================================================== */
+.dashboard-content{
+    padding-top: 15%;
+    background-image: url(../img/education2.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 750px;
+}
+.dashboard-item{
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,.13);
+    margin-top: 20px;
+    padding:30px;
+    text-align: center;
+    background-color: rgb(242, 242, 242);
+}
+.dashboard-item h2{
+    color:#000;
+    font-size: 27px;
+    text-align: center;
+}
+.dashboard-item img{
+    margin-top: 20px;
+    height: 128px;
+    width: 128px;
+}
+/* ==========================================================================
+    caribuku_page
+========================================================================== */
+.caribuku-content{
+    padding-top: 15%;
+    background: #9053c7;
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   -moz-box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   padding-bottom:120px;
+}
+.buku-content{
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,.13);
+    margin-top: 20px;
+    text-align: center;
+    padding:30px;
+    background-color: rgb(242, 242, 242);
+}
+#pagination{
+    margin-top:20px;
+}
+.buku-text p{
+    text-align: left;
+}
+#pinjambuku{
+    top: 30%;
+    outline: none;
+}
+/* ==========================================================================
+    uploadbuku_page
+========================================================================== */
+.uploadbuku-content{
+    padding-top: 15%;
+    background: #9053c7;
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   -moz-box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   padding-bottom:120px;
+}
+.form-uploadbuku{
+    border-radius: 30px;
+    padding-top: 60px;
+    padding-bottom:60px;
+    padding-left: 90px;
+    padding-right: 90px;
+    width: 480px;
+    background-color: #fff;
+    margin-bottom: 120px;
+     box-shadow: 0 3px 5px 0 rgba(0,0,0,.13);
+}
+.uploadbuku-tittle{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.login-text{
+    text-align: center;
+}
+.form-uploadbuku .form-group .form-control{
+    border-radius: 150px;
+    background-color: #e6e6e6;
+    width: 300px;
+    height: 40px;
+}
+.form-uploadbuku .form-group #btn-uploadbuku{
+    border-radius: 150px;
+    background-color: #0cb528;
+    color: #fff;
+    border: #0cb528;
+    width: 300px;
+    height: 40px;
+}
+/* ==========================================================================
+   profile_page
+========================================================================== */
+.profile-content{
+    padding-top: 15%;
+    background: #9053c7;
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   -moz-box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   padding-bottom:120px;
+}
+.profile{
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 60px;
+    padding-bottom:60px;
+    padding-left: 90px;
+    padding-right: 90px;
+    width: 480px;
+    background-color: #fff;
+    margin-bottom: 120px;
+     box-shadow: 0 3px 5px 0 rgba(0,0,0,.13);
+}
+.profile-tittle{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.profile .form-group .form-control{
+    border-radius: 150px;
+    background-color: #e6e6e6;
+    width: 300px;
+    height: 40px;
+}
+#yourprofile .form-group label{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+#yourprofile .form-group label p{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.profile .form-group #btn-editprofile{
+    border-radius: 150px;
+    background-color: #0cb528;
+    color: #fff;
+    border: #0cb528;
+    width: 300px;
+    height: 40px;
+}
+.profile .form-group #btn-submitprofile{
+    border-radius: 150px;
+    background-color: #0cb528;
+    color: #fff;
+    border: #0cb528;
+    width: 300px;
+    height: 40px;
+}
+#btn-editprofile{
+    height :40px;
+    width: 200px;
+    border-radius: 40px;
+    background: #0cb528;
+    color: white;
+    border: #0cb528;
+}
+/* ==========================================================================
+   editprofile_page
+========================================================================== */
+.editprofile-content{
+    padding-top: 15%;
+    background: #9053c7;
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   -moz-box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   padding-bottom:120px;
+}
+.editprofile-form{
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 60px;
+    padding-bottom:60px;
+    padding-left: 90px;
+    padding-right: 90px;
+    width: 480px;
+    background-color: #fff;
+    margin-bottom: 120px;
+     box-shadow: 0 3px 5px 0 rgba(0,0,0,.13);
+}
+.editprofile-tittle{
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* ==========================================================================
+   jadimentor_page
+========================================================================== */
+
+.jadimentor-content{
+    padding-top: 15%;
+    background: #9053c7;
+    background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+}
+.form-jadimentor{
+    border-radius: 30px;
+    padding-top: 60px;
+    padding-bottom:60px;
+    padding-left: 90px;
+    padding-right: 90px;
+    width: 480px;
+    background-color: #fff;
+    margin-bottom: 120px;
+     box-shadow: 0 3px 5px 0 rgba(0,0,0,.13);
+}
+.jadimentor-tittle{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.jadimentor-login .form-group .form-control{
+    border-radius: 150px;
+    background-color: #e6e6e6;
+    width: 300px;
+    height: 40px;
+}
+.form-jadimentor .form-group #jadimentor-btn{
+    border-radius: 150px;
+    background-color: #0cb528;
+    color: #fff;
+    border: #0cb528;
+    width: 300px;
+    height: 40px;
+}
+/* ==========================================================================
+    bukakelas_page
+========================================================================== */
+.bukakelas-content{
+    padding-top: 15%;
+    background: #9053c7;
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   -moz-box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   padding-bottom:120px;
+}
+.form-bukakelas{
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 60px;
+    padding-bottom:60px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: #fff;
+    margin-bottom: 120px;
+     box-shadow: 0 3px 5px 0 rgba(0,0,0,.13);
+}
+.bukakelas-tittle{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.login-text{
+    text-align: center;
+}
+.form-bukakelas .form-group .form-control{
+    border-radius: 150px;
+    background-color: #e6e6e6;
+    width: 450px;
+    height: 40px;
+}
+.form-bukakelas .form-group #btn-bukakelas{
+    border-radius: 150px;
+    background-color: #0cb528;
+    color: #fff;
+    border: #0cb528;
+    width: 300px;
+    height: 40px;
+}
+/* ==========================================================================
+    setelahpeminjaman_page
+========================================================================== */
+.setelahpeminjaman_content{
+    padding-top: 15%;
+    background: #9053c7;
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   -moz-box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   padding-bottom:120px;
+}
+.setelahpeminjaman_card{
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 60px;
+    padding-bottom:60px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background-color: #fff;
+    margin-bottom: 120px;
+     box-shadow: 0 3px 5px 0 rgba(0,0,0,.13);
+}
+/* ==========================================================================
+    setelahpeminjaman_page
+========================================================================== */
+
+.carikelas-content{
+    padding-top: 15%;
+    background: #9053c7;
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   -moz-box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   box-shadow: 0px 0px 11px 2px rgba(194,179,194,1);
+   padding-bottom:120px;
+}
+.kelas-content{
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,.13);
+    margin-top: 20px;
+    text-align: center;
+    padding:30px;
+    background-color: rgb(242, 242, 242);
+}
+#pagination-kelas{
+    margin-top:20px;
+}
+.kelas-text p{
+    text-align: left;
+}
+#pinjambuku{
+    top: 30%;
+    outline: none;
+}
